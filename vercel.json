@@ -1,0 +1,9 @@
+{
+    "build": {
+      "src": "app_react/package.json",
+      "use": "@vercel/static-build",
+      "config": {
+        "distDir": "app_react/build"
+      }
+    }
+  }
