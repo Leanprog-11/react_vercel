@@ -1,8 +1,5 @@
 {
-    "build": {
-      "use": "@vercel/static-build",
-      "config": {
-        "distDir": "app_react/build"
-      }
-    }
+  "build": {
+    "outputDirectory": "carpeta-de-tu-proyecto/build"
   }
+}
